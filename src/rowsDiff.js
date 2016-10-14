@@ -1,4 +1,4 @@
-import equal from 'deep-equal';
+import deepEqual from 'deep-equal';
 
 function rowsDiff(old_rows, new_rows, options = {}) {
   // Check parameters
@@ -22,7 +22,7 @@ function rowsDiff(old_rows, new_rows, options = {}) {
 
   // Get equalFunc
 
-  let equalFunc = equal;
+  let equalFunc = deepEqual;
 
   if(typeof options === 'object' && options.equalFunc) {
     equalFunc = options.equalFunc;
