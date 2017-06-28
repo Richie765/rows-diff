@@ -1,6 +1,6 @@
 {
   "name": "rows-diff",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Compares two sets of rows, usually coming from a database, and returns the difference.",
   "main": "dist/rowsDiff.js",
   "dependencies": {
